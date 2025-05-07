@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* The styling of my nav bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav .techmulan {
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+nav .links {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+
+
+}
+
+
+nav .links:hover {
+    text-decoration: line-through;
+
+
+
+}
+
+
+main .coltext h1 {
+    font-family: cursive;
+}
+
+main .coltext p {
+    font-size: 4rex;
+}
+
+
+
+main .navbuttom a {
+
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+main .navbuttom {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling my project page */
+
+/* The styling of my youtube video section */
+
+main .youtubevideos {
+    padding: 5vh;
+}
+
+main .youtubevideos img {
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, white 0px 15px 12px;}
+
+main .youtubevideos .col-md-4 {
+
+    margin: auto 0;
+}
+
+main .youtubevideos .col-md-4 button {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+main .youtubevideos .col-md-4 button a {
+    text-decoration: none;
+    font-size: 3rex;
+
+}
+
+main .youtubevideos .col-md-4 button a:hover{
+    text-decoration: none;
+    font-size: 3rex;
+    background-color: #004f94;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-name: inherit; */
+
+}
+
+
+  
+
+/* This is the styling of my footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #efefef;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+footer div button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 5%;
+        margin-bottom: 50px;
+    }
+
+    nav .links {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    main .coltext h1 {
+        font-size: 3rex;
+        
+        font-family: cursive;
+        padding: 0;
+        margin: 0;
+    }
+    
+    main .coltext p {
+        font-size: 2rex;
+        padding: 0;
+        margin: 0;
+    }
+
+    main img {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    main .firstrow {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    main .navbuttom{
+        display: none;
+    }
+
+    .project-card{
+        display: block;
+        text-align: center;
+    }
+
+    .project-card img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        background-color: #f8f8f8;
+    }
+
+
+}
