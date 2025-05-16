@@ -99,10 +99,10 @@ main .youtubevideos .col-md-4 button a {
 
 }
 
-main .youtubevideos .col-md-4 button a:hover{
+main .youtubevideos .col-md-4 button:hover{
     text-decoration: none;
     font-size: 3rex;
-    background-color: #004f94;
+    background-color: yellow;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
